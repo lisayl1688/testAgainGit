@@ -4,6 +4,9 @@ class Calculator {
     }
     
     static divide(a:number, b:number) {
+        if(b===0) {
+            console.error("geht nicht");
+        }
         return a/b;
     }
 }
